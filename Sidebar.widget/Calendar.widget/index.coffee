@@ -47,7 +47,7 @@ style: """
   bgColor05 = rgba(bgColor,0.5)
   bgColor02 = rgba(bgColor,0.2)
 
-  width 176px
+  width 200px
   height auto
   overflow hidden
   background-color bgColor02
@@ -70,18 +70,18 @@ style: """
 
   thead tr
     &:first-child td
-      font-size 12pt
+      font-size 14pt
       font-weight 200
       color fColor1
 
     &:last-child td
-      font-size 7.5pt
+      font-size 9pt
       padding-bottom 8px
       font-weight 500
       color fColor05
 
   tbody td
-    font-size 7.5pt
+    font-size 9pt
 
   .today
     font-weight bold

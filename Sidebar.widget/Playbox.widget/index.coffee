@@ -4,7 +4,7 @@
 
 options =
   # Easily enable or disable the widget.
-  widgetEnable: false
+  widgetEnable: true
 
 command: "osascript 'Sidebar.widget/Playbox.widget/as/Get Current Track.applescript'"
 
@@ -15,14 +15,14 @@ style: """
   white05 = rgba(white,0.5)
   white02 = rgba(white,0.2)
 
-  width 176px
+  width 200px
   overflow hidden
   white-space nowrap
   opacity 0
 
   .wrapper
-    font-size 8pt
-    line-height 11pt
+    font-size 10pt
+    line-height 10pt
     color white
     padding 8px
 

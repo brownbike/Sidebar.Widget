@@ -1,7 +1,7 @@
 -- Get events using icalBuddy.
 
 try
-	set rawOutput to do shell script "/usr/local/bin/icalBuddy -npn -nc -iep 'title,datetime' -ps ' ^ ' -po 'datetime,title' -df '' -eed -b '' -n -ea eventsToday"
+	set rawOutput to do shell script "/usr/local/bin/icalBuddy -npn -nc -iep 'title,datetime' -ic 'scott@shiftlabny.com,scottmckeon@gmail.com' -ps ' ^ ' -po 'datetime,title' -df '' -eed -b '' -n -ea eventsToday"
 on error e
 	logEvent(e)
 	return "icalbuddy"

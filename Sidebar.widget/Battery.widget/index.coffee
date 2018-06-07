@@ -33,12 +33,12 @@ style: """
   bgColor05 = rgba(bgColor,0.5)
   bgColor02 = rgba(bgColor,0.2)
 
-  width 176px
+  width 200px
   overflow hidden
   white-space nowrap
   opacity 0
   background-color bgColor02
-  font-size 8pt
+  font-size 10pt
   line-height @font-size
 
   *, *:before, *:after

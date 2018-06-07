@@ -6,10 +6,10 @@ options =
   widgetEnable:           true
 
   # Enter locations to set up world clocks. Reference - en.wikipedia.org/wiki/List_of_tz_database_time_zones
-  locations   :           "US/Pacific,Europe/Warsaw"
+  locations   :           "US/Pacific,US/Eastern"
 
   # Optional custom labels for cities. If you leave them empty, make sure to keep the quotes ("").
-  cityNames   :           "Cupertino,Wroclaw"
+  cityNames   :           "Portland OR,New York City"
 
   # 12 or 24 hour time format.
   timeFormat  :           "12"
@@ -46,9 +46,9 @@ style: """
 
   .wrapper
     text-align center
-    font-size 8pt
-    line-height 11pt
-    width 176px
+    font-size 10pt
+    line-height 12pt
+    width 200px
     align-items center
     display flex
 

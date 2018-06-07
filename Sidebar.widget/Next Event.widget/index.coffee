@@ -14,12 +14,12 @@ style: """
   white05 = rgba(white,0.5)
   white02 = rgba(white,0.2)
 
-  width 176px
+  width 200px
 
   .wrapper
     position relative
-    font-size 8pt
-    line-height 11pt
+    font-size 10pt
+    line-height 12pt
     color white
     height 48px
 

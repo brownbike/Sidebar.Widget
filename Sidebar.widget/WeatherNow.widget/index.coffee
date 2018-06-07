@@ -7,7 +7,7 @@ options =
   widgetEnable  : true              # Easily enable or disable the widget.
   city          : "San Francisco"   # default city in case location detection fails
   region        : "US"              # default region in case location detection fails
-  units         : 'C'               # c for celcius. f for Fahrenheit
+  units         : 'F'               # c for celcius. f for Fahrenheit
   staticLocation: false             # set to true to disable automatic location lookup
 
 appearance =
@@ -29,10 +29,10 @@ style: """
 
   .wrapper
     color white1
-    width 176px
+    width 200px
     padding 8px
     position relative
-    line-height 11pt
+    line-height 12pt
     height 64px
 
   .icon
@@ -62,7 +62,7 @@ style: """
     font-weight 700
 
   .condition, .location
-    font-size 8pt
+    font-size 10pt
     font-weight 200
     text-overflow ellipsis
     overflow hidden
